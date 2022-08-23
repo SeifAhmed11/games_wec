@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+            <!--   NavBar   -->
+
+    <ul class="nav flex-column">
+    <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#" title="Home" onclick="home()">
+        <i class="fa-solid fa-house" ></i>
+    </a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" href="#" title="Kinds of Games"  onclick="kinds()">
+        <i class="fa-solid fa-gamepad"></i>
+    </a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" href="#" title="Game History"  onclick="history()">
+        <i class="fa-solid fa-calendar"></i>
+    </a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" href="#" title="About Me"  onclick="about()">
+        <i class="fa-solid fa-address-card"></i>
+    </a>
+</ul>
+            <!--   loading -->
+            <div id="loa"></div>
+
+            <!--   body   -->
+
+            <!--   home   -->
+            <div id="home">
+                    <div class="text-center  ">
+                        <h1 class="text-uppercase text-light">GAMES</h1>
+                        <p class="sub fs-6 mb-5">Games are sometimes played purely for enjoyment, sometimes for achievement or reward as well. They can be played alone, in teams, or online; by amateurs or by professionals. The players may have an audience of non-players, such as when people are entertained by watching a chess championship. On the other hand, players in a game may constitute their own audience as they take their turn to play. Often, part of the entertainment for children playing a game is deciding who is part of their audience and who is a player. A toy and a game are not the same. Toys generally allow for unrestricted play whereas games come with present rules.</p>
+                        <button type="button" class="btn"  onclick="kinds()" >GAMES</button>
+                    </div>
+            </div>
+
+            <!--   kinds   -->
+            <div id="kinds">
+                <div class="features text-center text-light pt-5 pb-5">
+                    <div class="container">
+                            <div class="main-title">
+                                <i id="game" class="fa-solid fa-gamepad  "></i>
+                                <h2 class="text-uppercase pt-2">kinds games</h2>
+                            </div>
+                        <div class="row">
+                            <div class="col-md-6 col-lg-4">
+                                <div class="feat">
+                                    <div class="icon-holder position-relative box" data-work="action">
+                                        <img class="vv" src="ack.jpg">
+                                    </div>
+                                    <h4 class="text-uppercase mb- mt-3">action games</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <div class="feat">
+                                    <div class="icon-holder position-relative box" data-work="kids">
+                                        <img class="vv" src="kid.jpg">
+                                    </div>
+                                    <h4 class="text-uppercase mb- mt-3">kids games</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <div class="feat">
+                                    <div class="icon-holder position-relative box" data-work="restaurant games">
+                                        <img class="vv" src="gis.jpg">
+                                    </div>
+                                    <h4 class="text-uppercase mb- mt-3">restaurant games</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--   history   -->
+            <div id="history">
+                <div class="text-center text-light ">
+                    <h1 class="text-uppercase his text-light">History of Computer Games</h1>
+                    <p class="fs-6 mb-5 mt-5">
+                        <h6>
+                        A game is a form of interactive entertainment where players must overcome challenges, by taking actions that are governed by rules, in order to meet a victory condition.
+                        </h6>
+                    </p>
+                </div>
+                <div>
+                    <ul class="text-light">
+                        <h3>
+                            History of Computer Games :
+                        </h3>
+                        <li class="lip fs-6 mb-5 mt-5 ">A game is a form of interactive entertainment where players must overcome challenges, by taking actions that are governed by rules, in order to meet a victory condition.</li>
+                        <li class="lip fs-6 mb-5 mt-5 ">1962: “Spacewar” (Steven Russell) Spacewar! is a space combat video game developed in 1962 by Steve Russell at MIT using vector graphics on PDP-1. It was also spread to many of few dozen, primarily academic, installations of PDP-1 computer, making Spacewar first known video game to be played at multiple computer installations.</li>
+                        <li class="lip fs-6 mb-5 mt-5 ">In 1972, “The Odyssey” became first commercial home video game console when it was released by Magnavox. Odyssey consists of a white, black, and brown box which connects to a television set, and two rectangular controllers attached by wires.</li>
+                        <li class="lip fs-6 mb-5 mt-5 ">Donkey Kong is an arcade game released by Nintendo in 1981. In the game, Mario originally named Mr. Video and then Jumpman must rescue a damsel in distress named Pauline originally named Lady, from a giant ape named Donkey Kong.</li>
+                        <li class="lip fs-6 mb-5 mt-5 ">Tetris is a tile-matching puzzle video game, originally designed and programmed by Russian game designer Alexey Pajitnov. First playable version was completed on June 6, 1984.</li>
+                        <li class="lip fs-6 mb-5 mt-5 ">Solitaire is a computer game included with Microsoft Windows, based on a card game of same name, also known as Klondike. Microsoft has included game as part of its Windows product line since Windows 3.0, starting from 1990.</li>
+                        <li class="lip fs-6 mb-5 mt-5 ">The PlayStation (officially abbreviated to PS, and commonly known as PS1 or its codename, PSX) is a home video game console developed and marketed by Sony Computer Entertainment. The console was released on 3 December 1994 in Japan.</li>
+                        <li class="lip fs-6 mb-5 mt-5 ">The Xbox is a home video game console and first installment in Xbox series of consoles manufactured by Microsoft. It was released on November 15, 2001 in North America.</li>
+                    </ul>
+                </div>
+            </div>
+            <!--   about   -->
+            <div id="about">
+                <div class="about-in">
+                    <p>
+                        My name is  <span class="namee text-uppercase">seif Ahmed Mohamed</span>. I am from Egypt. Faculty of Computers and Information, Ain Shams University. I love to try everything new.
+                    </p>
+                </div>
+                <div class="bbbbb">
+                <footer class="footer">
+                    <p class="foo">
+                        <span class="made">
+                        Made With By
+                        </spnan>
+                        <span class="his">
+                        Seif Ahmed Mohamed © 2022  
+                        </span>
+                    </p>
+                </footer>
+            </div>
+            </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="eff.js"></script>
+</body>
+</html>
